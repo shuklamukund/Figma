@@ -1,12 +1,13 @@
 
 import './App.css'
-import Navbar from './components/Navbar/Navbar'
-
+import Heading from './components/Navbar/Navbar';
+import MainSection from './components/mainSection/mainSection';
 function App() {
   
   return (
     <>
-     <Navbar/>
+     <Heading/>
+     <MainSection/>
     </>
   )
 }

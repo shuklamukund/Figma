@@ -1,0 +1,59 @@
+.main{
+    width: 100%;
+    display: flex;
+}
+.left{
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    margin-top: 100px;
+    margin-left: 30px;
+}
+img{
+    
+    width: 40%;
+}
+.right{
+    justify-content: center;
+    align-items: center;
+    
+    width: 50%;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+.btn{
+    justify-content: center;
+
+}
+.signin{
+cursor: pointer;
+border: hidden;
+background-color: white;
+color: black;
+margin: 15px;
+}
+.joinin{
+    cursor: pointer;
+    border: hidden;
+    background-color: white;
+    color: black;
+    margin: 15px;
+}
+span{
+    margin: 15px;
+    border-radius: 5px;
+    width: 40%;
+}
+.google{
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px;
+    font-weight: bold;
+}
+.facebook{
+    border-radius: 5px;
+    width: 80%;
+    margin: 10px;
+    font-weight: bold
+}
