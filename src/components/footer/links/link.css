@@ -1,0 +1,19 @@
+.main{
+    display:'flex';
+    margin:'auto';
+    width:'50%';
+    margin-top:'40px';
+    @media (max-width: 767px){
+        display: grid;
+       
+    }
+}
+.main2{
+    display:'flex';
+    width:'60%';
+    justify-Content:'space-evenly';
+    @media (max-width: 767px){
+        display: grid;
+       
+    }
+}

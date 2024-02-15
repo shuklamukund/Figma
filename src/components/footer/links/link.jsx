@@ -2,11 +2,18 @@ import { FaFacebook ,FaTwitter,FaInstagram,FaPinterest,FaGooglePlusG,FaTelegram,
 import {InputGroup,FormControl} from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import { CgMail } from "react-icons/cg";
+import './link.css';
 function Link(){
     return(
        
-            <div style={{display:'flex',margin:'auto',width:'50%',marginTop:'40px'}}>
-                <div style={{display:'flex',width:'60%',justifyContent:'space-evenly' }}>
+            <div className="main" style={{ display:'flex',
+            margin:'auto',
+            width:'50%',
+            marginTop:'40px'}}>
+                <div className="main2" style={{display:'flex',
+    width:'60%',
+    justifyContent:'space-evenly',
+    }}>
                     <div>
                         <p style={{fontWeight:'bold'}}>Hobbycue</p>
                         <div style={{cursor:'pointer'}}>

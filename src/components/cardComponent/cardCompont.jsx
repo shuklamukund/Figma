@@ -8,9 +8,9 @@ import './cardComponent.css';
 function CardComponent(){
     return(
 
-        <div style={{display:'flex',flexDirection:'column',justifyContent:'center',alignItems:'center'}}>
+        <div className='main' style={{justifyContent:'center',alignItems:'center'}}>
 
-            <div style={{display:'flex'}}>
+            <div className='main1' >
 
             <Card className='People' style={{ width: '30rem' ,margin:'20px'}}>
   <Card.Body>
@@ -39,7 +39,7 @@ function CardComponent(){
 
             </div>
 
-            <div style={{display:'flex'}}>
+            <div className='main2' >
 
             <Card className='Product' style={{ width: '30rem' ,margin:'20px'}}>
   <Card.Body>
